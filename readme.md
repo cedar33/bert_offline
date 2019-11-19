@@ -4,8 +4,8 @@
 `vocab.txt`: BERT词表  
 `text_classify.py`: 文本分类任务样例，基于`tensorflow2.0`，运行脚本：
 
-```shell
-python text_classify.py --data_dir=./ --output_dir=./model/ --vocab_file=./vocab.txt --train_batch_size=32 --num_train_epochs=10 --max_seq_length=256python text_classify.py --data_dir=./ --output_dir=./model/ --vocab_file=./vocab.txt --train_batch_size=32 --num_train_epochs=10 --max_seq_length=256python text_classify.py --data_dir=./ --output_dir=./model/ --vocab_file=./vocab.txt --train_batch_size=32 --num_train_epochs=10 --max_seq_length=256
+```Bash
+python text_classify.py --data_dir=./ --output_dir=./model/ --vocab_file=./vocab.txt --train_batch_size=32 --num_train_epochs=10 --max_seq_length=256python text_classify.py --data_dir=./ --output_dir=./model/ --vocab_file=./vocab.txt --train_batch_size=32 --num_train_epochs=10 --max_seq_length=256
 ```  
 
 `tran.tsv, dev_matched.tsv`: 训练、测试数据，格式：
@@ -20,8 +20,8 @@ BERT offline is a simple but efficient way to use BERT embeddings output on some
 `bert.npz`: output of BERT, can be embedding layer on downstream task  
 `vocab.txt`: bert's vocabulary list  
 `text_classify.py`: an example code of text calssification，based on `tensorflow2.0`：
-```shell
-python text_classify.py --data_dir=./ --output_dir=./model/ --vocab_file=/path/to/vocab.txt
+```Bash
+python text_classify.py --data_dir=./ --output_dir=./model/ --vocab_file=./vocab.txt --train_batch_size=32 --num_train_epochs=10 --max_seq_length=256python text_classify.py --data_dir=./ --output_dir=./model/ --vocab_file=./vocab.txt --train_batch_size=32 --num_train_epochs=10 --max_seq_length=256
 ```  
 `tran.tsv, dev_matched.tsv`: training,validation dataset，format：
 ```plaintext
