@@ -1,0 +1,9 @@
+checkpoint
+bert.npz
+model/train.tf_record
+model/eval.tf_record
+model/.index
+model/.data-00000-of-00002
+model/.data-00001-of-00002
+*.pyc
+.vscode/*
