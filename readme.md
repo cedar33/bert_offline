@@ -12,7 +12,7 @@ python text_classify.py --data_dir=./ --output_dir=./model/ --vocab_file=./vocab
 ```plaintext
 我从山中来，带着兰花草  negative
 ```
-以`\t`为分隔符
+以`\t`为分隔符  
 ps: 词表查找通过`list`的`index`方法查找的，效率比较低，对速度要求比较高的可以修改成字典方式，或者修改bert自带的`tokenizer`来实现词表高速查找
 
 ***
